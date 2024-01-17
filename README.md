@@ -5,12 +5,10 @@ Removes all files created during build from the original source.
 This EXE will travel through your source code eliminating the files that are commonly added during a build so that you can restore the source to it's pre-build condition. It will eliminate a lot of excess files not needed until you need to build this solution again.
 
 It will eliminate the following folders:
-- /bin 
-- /obj
-- /packages
-- /node_modules
-- /dist (commonly used to store compiled UI components)
-- /tmp (commonly used to store temp files)
+- /bin (stores compiled DLL files)
+- /obj (stores compilation files)
+- /packages (stores downloaded C# NuGet packages)
+- /node_modules (stores downloaded NPM packages)
 - /Test_Results (stores the C# unit testing results)
 
 ## Prerequisites

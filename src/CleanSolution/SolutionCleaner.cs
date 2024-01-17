@@ -9,7 +9,7 @@
             DeleteCompiledDirectories(path);
         }
 
-        private string[] FoldersToDelete = new string[] { "bin", "obj", "dist", "tmp", "TestResults", "node_modules", "packages" };
+        private string[] FoldersToDelete = new string[] { "bin", "obj", "TestResults", "node_modules", "packages" };
 
         public void DeleteCompiledDirectories(string parentDirectory)
         {
